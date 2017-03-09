@@ -17,14 +17,6 @@ def leeEimprimeZZ(inputFile, outputFile):
    return;
 
 
-#for line in F:
-#  if re.search(r'\spotential energy\s',line,re.M|re.I):
-#      #print line
-#      #sys.stdout.write(line.split()[2])
-#      print line.split()[2]
-#
-#
-
       
 leeEimprimeZZ('zz', "ver3.dat")
 leeEimprimeZZ('zz', "ver4.dat")

@@ -10,6 +10,7 @@ def leeEimprimeZZ(inputFile, outputFile):
    for line in F:
      if re.search(r'\spotential energy\s',line,re.M|re.I):
          fileOut.write(line.split()[2])
+         fileOut.write("\n")
 
    fileOut.close()
    F.close()
