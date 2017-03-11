@@ -43,6 +43,20 @@ def saveArrayToFile(array, outputFile):
    fileOut.close()
    return;
 
+def leeEpasaArregloDAT(inputFile):
+   
+   F = open(inputFile,'r')
+
+   A = []
+   for line in F:
+      A.append(float(line.split()[2]))
+
+
+   F.close()
+   return A;
+
+
+
 
 eGP = leeEpasaArregloZZ('../datosMallaPython/zz-GP.dat')
 eBN = leeEpasaArregloZZ('../datosMallaPython/zz-BN.dat')
