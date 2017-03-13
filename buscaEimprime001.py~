@@ -58,7 +58,7 @@ def leeEpasaArregloDAT(inputFile):
 
 #eGP = leeEpasaArregloZZ('../datosMallaPython/zz-GP.dat')
 #eBN = leeEpasaArregloZZ('../datosMallaPython/zz-BN.dat')
-eB23N23 = leeEpasaArregloZZ('../datosMallaPython/zz-B23N23.dat')
+#eB23N23 = leeEpasaArregloZZ('../datosMallaPython/zz-B23N23.dat')
 #eB2N2 = leeEpasaArregloZZ('../datosMallaPython/zz-B2N2.dat')
 #eB3N3 = leeEpasaArregloZZ('../datosMallaPython/zz-B3N3.dat')
 #eB6N6 = leeEpasaArregloZZ('../datosMallaPython/zz-B6N6.dat')
@@ -71,7 +71,7 @@ eB23N23 = leeEpasaArregloZZ('../datosMallaPython/zz-B23N23.dat')
 
 #saveArrayToFile(eGP, '../datosMallaPython/eGP.dat')
 #saveArrayToFile(eBN, '../datosMallaPython/eBN.dat')
-saveArrayToFile(eB23N23, '../datosMallaPython/eB23N23.dat')
+#saveArrayToFile(eB23N23, '../datosMallaPython/eB23N23.dat')
 #saveArrayToFile(eB2N2, '../datosMallaPython/eB2N2.dat')
 #saveArrayToFile(eB3N3, '../datosMallaPython/eB3N3.dat')
 #saveArrayToFile(eB6N6, '../datosMallaPython/eB6N6.dat')
@@ -93,6 +93,7 @@ eB12N12c = leeEpasaArregloDAT('../datosMallaPython/eB12N12c.dat')
 eB12N12d = leeEpasaArregloDAT('../datosMallaPython/eB12N12d.dat')
 eB12N12e = leeEpasaArregloDAT('../datosMallaPython/eB12N12e.dat')
 
-for p in eB23N23[0:10]:
-   print(p)
+
+
+
 
