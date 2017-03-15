@@ -15,3 +15,15 @@ fig, ax = plt.subplots()
 ax.plot(xf, 2.0/N * np.abs(yf[:N//2]))
 plt.show()
 
+##
+#Floor Division - The division of operands where the result is the
+#Quotient in which the digits after the decimal point are removed.
+#But if one of the operands is negative, the result is floored,
+#I.e., rounded away from zero (towards negative infinity):
+#
+
+
+#9//2 = 4 and 9.0//2.0 = 4.0, -11//3 = -4, -11.0//3 = -4.0
+
+#https://www.tutorialspoint.com/python/python_basic_operators.htm
+
