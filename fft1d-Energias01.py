@@ -36,8 +36,9 @@ eGPFFTdot = np.multiply(scipy.fftpack.fft(eGP), \
       np.conjugate(scipy.fftpack.fft(eGP)))
 
 print("\n")
-print('el max eGPFFTdot es %f e INDEX: %d') % \
-np.max(eGPFFTdot), np.where(eGPFFTdot==eGPFFTdot.max())
+print('el max eGPFFTdot es %f ') % np.max(eGPFFTdot)
+print("\n")
+print(np.where(eGPFFTdot==eGPFFTdot.max()))
 print("\n")
 
 # plot time vs energy
